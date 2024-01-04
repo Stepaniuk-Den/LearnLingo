@@ -1,0 +1,27 @@
+/* rgba 80% = hexa CC */
+/* rgba 70% = hexa B2 */
+/* rgba 20% = hexa 33 */
+/* rgba 10% = hexa 1A */
+:root {
+  /* background */
+  --main-background: #fff;
+  --second-background: #f8f8f8;
+
+  /* text colors */
+  --text-color-100: #121417;
+  --text-color-80: #121417cc;
+  --text-color-70: #121417b2;
+  --text-second-color-100: #8a8a89;
+
+  /* colors */
+  --accent-normal-color: #f4c550;
+  --accent-hover-color: #ffdc86;
+  --accent-second-color: #fbe9ba;
+  --accent-third-color: #d3933b;
+  --status-online-color: #38cd3e;
+
+  /* border */
+  --accent-border-color-100: #f4c550;
+  --inactive-border-color-20: #12141733;
+  --inactive-border-color-10: #1214171a;
+}

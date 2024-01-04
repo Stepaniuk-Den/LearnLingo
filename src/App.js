@@ -6,7 +6,7 @@ import Loader from "./components/Loader/Loader";
 import Layout from "./pages/Layout";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
-const FavoritePage = lazy(() => import("./pages/FavoritesPage"));
+const FavoritesPage = lazy(() => import("./pages/FavoritesPage"));
 const TeachersPage = lazy(() => import("./pages/TeachersPage"));
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />}></Route>
-            <Route path="/favorite" element={<FavoritePage />}></Route>
+            <Route path="/favorites" element={<FavoritesPage />}></Route>
             <Route path="/teachers" element={<TeachersPage />}></Route>
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
