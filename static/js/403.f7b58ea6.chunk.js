@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklearn_lingo=self.webpackChunklearn_lingo||[]).push([[403],{403:(n,e,s)=>{s.r(e),s.d(e,{default:()=>d});s(791);var l,i=s(168);const a=s(978).ZP.div(l||(l=(0,i.Z)(["\n  display: flex;\n  flex-direction: row;\n  gap: 24px;\n"])));var r=s(184);const d=()=>(0,r.jsxs)(a,{children:[(0,r.jsx)("div",{}),(0,r.jsx)("div",{})]})}}]);
+//# sourceMappingURL=403.f7b58ea6.chunk.js.map
