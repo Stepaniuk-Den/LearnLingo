@@ -7,8 +7,8 @@ export const StyledHeaderWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
+  width: clamp(320px, 100%, 1184px);
+  margin: 20px auto;
 `;
 
 export const StyledNav = styled.nav`
