@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
     primaryFont: "#121417", //--text-color-100: #121417;
-    secondaryFont: "rgba(255, 255, 255, 0.60)",
+    secondaryFont: "#FFFFFF",
     accentNormalColor: "#f4c550", //  --accent-normal-color: #f4c550;
     accentSecondColor: "#fbe9ba", //  --accent-second-color: #fbe9ba;
     accentThirdColor: "#d3933b", // --accent-third-color: #d3933b;
@@ -31,6 +31,7 @@ export const theme = {
     s12: "12px",
     s14: "14px",
     s16: "16px",
+    s18: "18px",
     s20: "20px",
     s28: "28px",
     s48: "48px",
