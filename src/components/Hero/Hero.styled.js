@@ -12,7 +12,7 @@ export const StartedWrapper = styled.div`
 
   & h1 {
     font-family: ${({ theme }) => theme.fonts.semiBold500};
-    font-size: ${({ theme }) => theme.fontSizes.xl};
+    font-size: ${({ theme }) => theme.fontSizes.s48};
     line-height: 56px; /* 116.667% */
     letter-spacing: -0.96px;
     margin-bottom: 32px;
@@ -21,7 +21,7 @@ export const StartedWrapper = styled.div`
   & p {
     width: 470px;
     margin-bottom: 64px;
-    font-size: ${({ theme }) => theme.fontSizes.m};
+    font-size: ${({ theme }) => theme.fontSizes.s16};
     line-height: 22px; /* 137.5% */
     letter-spacing: -0.32px;
   }
@@ -42,7 +42,7 @@ export const StyledNav = styled(Link)`
   background-color: ${({ theme }) => theme.colors.accentNormalColor};
   border-radius: ${({ theme }) => theme.radius.button};
 
-  font-size: ${({ theme }) => theme.fontSizes.m};
+  font-size: ${({ theme }) => theme.fontSizes.s16};
   font-weight: ${({ theme }) => theme.fontWeights.bold};
   line-height: 28px; /* 155.556% */
   transition: background-color 0.3s ease;

@@ -28,11 +28,12 @@ export const theme = {
   },
 
   fontSizes: {
-    xs: "12px",
-    s: "14px",
-    m: "16px",
-    l: "28px",
-    xl: "48px",
+    s12: "12px",
+    s14: "14px",
+    s16: "16px",
+    s20: "20px",
+    s28: "28px",
+    s48: "48px",
   },
 
   fontWeights: {

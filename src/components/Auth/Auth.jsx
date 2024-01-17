@@ -1,7 +1,8 @@
 import React from "react";
+import { StyledAuthWrapper } from "./Auth.styled";
 
 const Auth = () => {
-  return <div>Auth</div>;
+  return <StyledAuthWrapper>Auth</StyledAuthWrapper>;
 };
 
 export default Auth;

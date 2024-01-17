@@ -25,8 +25,8 @@ export const StyledLogoWrapper = styled(Link)`
   gap: 8px;
 
   p {
-    font-family: Roboto500;
-    font-size: 20px;
+    font-family: ${({ theme }) => theme.fonts.semiBold500};
+    font-size: ${({ theme }) => theme.fontSizes.s20};
     letter-spacing: -0.4px;
   }
 `;
@@ -40,13 +40,9 @@ export const StyledNavLinkWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 28px;
-  /* font-family: Roboto400; */
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  /* display: flex;
-  align-items: center; */
-  /* font-family: Roboto400; */
   font-size: 16px;
   line-height: 1.25;
 `;

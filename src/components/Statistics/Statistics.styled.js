@@ -20,7 +20,7 @@ export const StyledItem = styled.li`
 
 export const StyledCount = styled.p`
   font-family: ${({ theme }) => theme.fonts.semiBold500};
-  font-size: ${({ theme }) => theme.fontSizes.l};
+  font-size: ${({ theme }) => theme.fontSizes.s28};
   line-height: 32px; /* 114.286% */
   letter-spacing: -0.56px;
 `;
@@ -28,7 +28,7 @@ export const StyledCount = styled.p`
 export const StyledDescription = styled.p`
   width: 96px;
   font-family: ${({ theme }) => theme.fonts.regular400};
-  font-size: ${({ theme }) => theme.fontSizes.s};
+  font-size: ${({ theme }) => theme.fontSizes.s14};
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
 `;
