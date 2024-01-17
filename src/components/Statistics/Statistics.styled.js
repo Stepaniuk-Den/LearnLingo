@@ -8,7 +8,7 @@ export const StyledList = styled.ul`
   padding: 40px 0;
   justify-content: center;
   align-items: center;
-  border: 1.5px dashed ${({ theme }) => theme.colors.accentNormalColor};
+  border: 2px solid ${({ theme }) => theme.colors.accentNormalColor};
   border-radius: ${({ theme }) => theme.radius.wrapper};
 `;
 
@@ -28,7 +28,7 @@ export const StyledCount = styled.p`
 export const StyledDescription = styled.p`
   width: 96px;
   font-family: ${({ theme }) => theme.fonts.regular400};
-  font-size: ${({ theme }) => theme.fontSizes.m};
+  font-size: ${({ theme }) => theme.fontSizes.s};
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
 `;

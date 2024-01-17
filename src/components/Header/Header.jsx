@@ -8,6 +8,7 @@ import {
   StyledNavLink,
   StyledNavLinkWrapper,
 } from "./Header.styled";
+import Auth from "../Auth/Auth";
 
 const Header = () => {
   const isAuth = true;
@@ -24,6 +25,7 @@ const Header = () => {
           <StyledNavLink to="teachers">Teachers</StyledNavLink>
           {isAuth && <StyledNavLink to="favorites">Favorites</StyledNavLink>}
         </StyledNavLinkWrapper>
+        <Auth />
       </StyledNav>
     </StyledHeaderWrapper>
   );
