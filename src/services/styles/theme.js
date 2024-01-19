@@ -8,7 +8,7 @@ export const theme = {
     orange: "#FFB627",
     pink: "#FF868D",
     violet: "#734AEF",
-    white: "rgba(255, 255, 255, 0.40)",
+    white: "#FFFFFF",
     secondBackground: "#f8f8f8", // --second-background: #f8f8f8;
     btnGradient:
       "linear-gradient(167deg, #FFC727 0%, #9E40BA 61.46%, #7000FF 90.54%)",
