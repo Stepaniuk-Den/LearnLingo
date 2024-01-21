@@ -1,12 +1,16 @@
 import React from "react";
-import { StyledAuthWrapper, StyledCiLogout } from "./Auth.styled";
+import {
+  StyledAuthWrapper,
+  StyledCiLogin,
+  StyledCiLogout,
+} from "./Auth.styled";
 import Button from "../../shared/components/Button/Button";
 
 const Auth = () => {
   const isAuth = true;
   return (
     <StyledAuthWrapper>
-      {isAuth ? (
+      {!isAuth ? (
         <Button
           text="Logout"
           variant="Logout"
@@ -14,7 +18,7 @@ const Auth = () => {
         ></Button>
       ) : (
         <>
-          <Button text="Login" variant="Login" />
+          <Button text="Login" variant="Login" icon={<StyledCiLogin />} />
           <Button text="Registration" variant="Registration" />
         </>
       )}
