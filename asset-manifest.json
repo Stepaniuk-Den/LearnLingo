@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/LearnLingo/static/css/main.4febbfcd.css",
-    "main.js": "/LearnLingo/static/js/main.b87cd44d.js",
-    "static/js/583.2af05cc9.chunk.js": "/LearnLingo/static/js/583.2af05cc9.chunk.js",
+    "main.js": "/LearnLingo/static/js/main.e9817567.js",
+    "static/js/405.509184a4.chunk.js": "/LearnLingo/static/js/405.509184a4.chunk.js",
     "static/js/681.f10327ad.chunk.js": "/LearnLingo/static/js/681.f10327ad.chunk.js",
-    "static/js/30.7cc2d276.chunk.js": "/LearnLingo/static/js/30.7cc2d276.chunk.js",
+    "static/js/317.695e8f43.chunk.js": "/LearnLingo/static/js/317.695e8f43.chunk.js",
     "static/media/Roboto-Italic 400.ttf": "/LearnLingo/static/media/Roboto-Italic 400.87f3afe16a8c3c370634.ttf",
     "static/media/Roboto-Medium 500.ttf": "/LearnLingo/static/media/Roboto-Medium 500.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular 400.ttf": "/LearnLingo/static/media/Roboto-Regular 400.fc2b5060f7accec5cf74.ttf",
@@ -14,13 +14,13 @@
     "index.html": "/LearnLingo/index.html",
     "static/media/ukraine.svg": "/LearnLingo/static/media/ukraine.cabdc22456c0c3d0ebcdf9fcc5809681.svg",
     "main.4febbfcd.css.map": "/LearnLingo/static/css/main.4febbfcd.css.map",
-    "main.b87cd44d.js.map": "/LearnLingo/static/js/main.b87cd44d.js.map",
-    "583.2af05cc9.chunk.js.map": "/LearnLingo/static/js/583.2af05cc9.chunk.js.map",
+    "main.e9817567.js.map": "/LearnLingo/static/js/main.e9817567.js.map",
+    "405.509184a4.chunk.js.map": "/LearnLingo/static/js/405.509184a4.chunk.js.map",
     "681.f10327ad.chunk.js.map": "/LearnLingo/static/js/681.f10327ad.chunk.js.map",
-    "30.7cc2d276.chunk.js.map": "/LearnLingo/static/js/30.7cc2d276.chunk.js.map"
+    "317.695e8f43.chunk.js.map": "/LearnLingo/static/js/317.695e8f43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4febbfcd.css",
-    "static/js/main.b87cd44d.js"
+    "static/js/main.e9817567.js"
   ]
 }
