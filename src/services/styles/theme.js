@@ -1,14 +1,14 @@
 export const theme = {
   colors: {
     primaryFont: "#121417", //--text-color-100: #121417;
-    secondaryFont: "#FFFFFF",
+    secondaryFont: "#FFFFFF", //
     accentNormalColor: "#f4c550", //  --accent-normal-color: #f4c550;
     accentSecondColor: "#fbe9ba", //  --accent-second-color: #fbe9ba;
     accentThirdColor: "#d3933b", // --accent-third-color: #d3933b;
-    orange: "#FFB627",
-    pink: "#FF868D",
+    avatarFrameColor: "#FBE9BA", //
+    green: "#38CD3E", //
     violet: "#734AEF",
-    white: "#FFFFFF",
+    white: "#FFFFFF", //
     secondBackground: "#f8f8f8", // --second-background: #f8f8f8;
     btnGradient:
       "linear-gradient(167deg, #FFC727 0%, #9E40BA 61.46%, #7000FF 90.54%)",
@@ -52,6 +52,7 @@ export const theme = {
     none: "0",
     normal: "8px",
     button: "12px",
+    card: "24px",
     wrapper: "30px",
     round: "50%",
   },
